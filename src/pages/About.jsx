@@ -6,10 +6,10 @@ import TitlePages from "../components/TitlePages";
 
 export default function About() {
   return (
-    <Box p={1} boxShadow="lg" borderRadius="md">
+    <Box p={6} boxShadow="lg" borderRadius="md">
       <Headline title="About Me" />
-      <TitlePages title="Hi, I'm Michelle Pérez" />
-      <Heading as='h2' size='xl'>Junior Software Developer</Heading>
+      <Heading as='h4' pl={2} size='l' mt={5} fontFamily='subHeader'> Hi, I'm <Text as='span' color="accent">Michelle Pérez</Text> </Heading>
+      <Heading as='h2' pl={2} size='xl' fontFamily="display" >Junior Software Developer</Heading>
 
       <Heading p={2} mt={10} as="h4" color="accent" fontFamily="subHeader" size="md">Professional Profile</Heading>
       <Text p={2}>

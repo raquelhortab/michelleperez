@@ -6,13 +6,16 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from "@chakra-ui/react"
 import '@fontsource/staatliches';
 import '@fontsource/yeseva-one';
+import '@fontsource-variable/comfortaa';
 
 const theme = extendTheme({
     colors: {
         accent: "#f5a209",
     },
     fonts: {
-        subHeader: `'Yeseva One', system-ui;`
+        yesevaOne: `'Yeseva One', system-ui;`,
+        display: `'Staatliches', system-ui;`,
+        subHeader: `'comfortaa', system-ui;`,
     }
 })
 
