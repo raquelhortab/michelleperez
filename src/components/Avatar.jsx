@@ -35,7 +35,7 @@ export default function Avatar() {
           borderRadius='10px'
           boxSize={{ base: '150px', sm: '230px' }} 
           objectFit='cover'
-          href='https://drive.google.com/file/d/1LlfZVxGwkTXZeXaK92PrlJ-PGfXiRhNj/view?usp=sharing'  
+          src='public/michelleprofile.jpg'  
           alt="Michelle's Profile"
         />
         <Box p={1} align="left" maxW={{ base: '100%', sm: '200px' }}> 
