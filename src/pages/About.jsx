@@ -3,18 +3,19 @@ import { Table, Tbody, Tr, Td, TableContainer, Heading, Box, Text, Stack } from 
 import Headline from "../components/Headline";
 import TitlePages from "../components/TitlePages";
 
+
 export default function About() {
   return (
     <Box p={1} boxShadow="lg" borderRadius="md">
       <Headline title="About Me" />
       <TitlePages title="Hi, I'm Michelle Pérez" />
      <Heading as='h2' size='xl'>Junior Software Developer</Heading>
-      <Heading p={1} as="h4" size="md">Professional Profile</Heading>
+      <Heading p={1} as="h4" color="accent" size="md">Professional Profile</Heading>
       <Text p={1}>
         Self-taught software engineer in training with notable participation in hackathons. I have demonstrated exceptional skills in developing innovative solutions and hold certifications from leading platforms. Passionate about data science and data analysis, I am always seeking to explore new frontiers in this constantly evolving field.
       </Text>
       
-      <Heading p={2} as="h4" size="md">My Education</Heading>
+      <Heading p={2} as="h4" color="accent"  size="md">My Education</Heading>
       <TableContainer>
         <Table variant='simple'>
           <Tbody>
@@ -57,7 +58,7 @@ export default function About() {
         </Table>
       </TableContainer>
       
-      <Heading p={3} as="h4" size="md">Work Experience</Heading>
+      <Heading p={3} as="h4" color="accent"  size="md">Work Experience</Heading>
       <TableContainer>
         <Table variant='simple'>
           <Tbody>
@@ -74,7 +75,7 @@ export default function About() {
         </Table>
       </TableContainer>
       
-      <Heading p={2} as="h4" size="md">Competitions</Heading>
+      <Heading p={2} as="h4" color="accent"  size="md">Competitions</Heading>
       <TableContainer>
         <Table variant='simple'>
           <Tbody>
