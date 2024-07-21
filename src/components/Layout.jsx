@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <Box flexShrink={0} flexGrow={0} flexBasis="400px"  mr={{ base: 0, md: 5 }} mb={{ base: 5, md: 0 }}>
           <Avatar />
         </Box>
-        <Box flexShrink={0} flexGrow={1} flexBasis="700px" p={25} boxShadow="lg" borderRadius="md"   ml="auto">
+        <Box flexShrink={0} flexGrow={1} overflow={'auto'} flexBasis="700px" p={25} boxShadow="lg" borderRadius="md"   ml="auto">
           {children}
         </Box>
       </Flex>
