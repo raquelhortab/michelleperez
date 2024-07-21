@@ -16,7 +16,7 @@ export default function Portfolio() {
         gap={4}
       >
         <CardProjects
-          source="./../../public/Portfolio.png"
+          source="https://drive.google.com/file/d/1tpH7XKtdi2jivIj2ibvgkd6VxVrWx2mj/view?usp=drive_link"
           reference="https://github.com/MichellePerezS/automataWeb"
           bd="ReactJS"
           bd2="ChackraUI"
